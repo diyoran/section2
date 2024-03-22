@@ -1,0 +1,846 @@
+@import url(/css/fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img,
+svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a,
+span,
+label,
+input,
+button,
+b,
+i,
+textarea {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+a,
+label,
+input,
+button,
+textarea {
+    cursor: pointer;
+}
+
+.font {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+    width: 1920px;
+    height: 7300px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
+    width: 1920px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.link {
+    display: inline-block;
+    width: 350px;
+    height: 24px;
+    position: relative;
+    top: 70px;
+    left: 207px;
+
+}
+
+.links {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.green-active {
+    color: rgba(2, 229, 2, 1);
+
+}
+
+/* start main menu  */
+
+.main-menu {
+    width: 780px;
+    height: 584px;
+    position: relative;
+    top: 140px;
+    left: -140px;
+}
+
+.agr {
+    width: 120px;
+    height: 330px;
+    position: relative;
+    top: 40px;
+}
+
+.dron {
+    width: 643px;
+    height: 574px;
+    position: relative;
+    top: -330px;
+    left: 150px;
+
+}
+
+.dron-main-img {
+    width: 633px;
+    height: 370px;
+
+}
+
+.dron-img {
+    columns: 3;
+    padding-top: 30px;
+}
+
+.dron-side {
+    width: 194px;
+    height: 160px;
+
+}
+
+.name {
+    font-size: 36px;
+    font-weight: 350;
+    line-height: 34px;
+    width: 331px;
+    height: 38px;
+    color: #fff;
+
+
+}
+
+.articul {
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 18px;
+    width: 89px;
+    height: 18px;
+    color: #fff;
+    padding-top: 30px;
+
+}
+
+.menu-window {
+    width: 600px;
+    height: 584px;
+    position: relative;
+    top: 140px;
+    left: -130px;
+    margin-left: 80px;
+}
+
+.list {
+    columns: 2;
+    padding-top: 50px;
+}
+
+.list__item {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.list__img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.list__txt {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.character {
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 350;
+    line-height: 18px;
+    color: #fff;
+
+}
+
+.line {
+    padding-top: 10px;
+    width: 180px;
+
+}
+
+.price-txt {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 30px;
+
+}
+
+.col {
+    width: 100px;
+    height: 40;
+    position: relative;
+    left: 170px;
+    top: -35px;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.butt {
+    width: 260px;
+    height: 70px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Roboto Condensed", sans-serif;
+
+
+}
+
+.put {
+    background: rgba(1, 182, 1, 1);
+    color: black;
+
+}
+
+.buy {
+    background: local;
+    color: rgba(1, 182, 1, 1);
+    margin-left: 30px;
+}
+
+/* end main menu  */
+
+/* start catalog */
+
+.info {
+    height: 170px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 90px;
+
+}
+
+.info__list {
+    background: rgba(30, 29, 29, 1);
+    display: flex;
+    flex-direction: row;
+    width: 312px;
+    height: 164px;
+
+
+}
+
+.info__img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+
+}
+
+.info__title {
+    width: 157px;
+    height: 24px;
+    font-size: 24px;
+    font-weight: 350;
+    line-height: 24px;
+    color: #fff;
+    position: relative;
+    top: 25px;
+    left: 30px;
+
+
+}
+
+.info__txt {
+    width: 192px;
+    height: 59px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 31px;
+    color: #fff;
+    position: relative;
+    top: 45px;
+    left: 30px;
+
+
+}
+
+/* start catalog 2  */
+
+.recomm {
+    width: 471px;
+    height: 48px;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 48px;
+    color: #fff;
+    position: relative;
+    left: 400px;
+    top: 150px;
+
+
+}
+
+.col2 {
+    width: 91px;
+    height: 34px;
+    position: relative;
+    left: 105px;
+}
+
+.catalog__list {
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+    padding-left: 400px;
+    gap: 30px;
+}
+
+.catalog__info {
+    width: 310px;
+    height: 475px;
+    background: rgba(30, 29, 29, 1);
+
+}
+
+.your {
+    width: 58px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 18px;
+    color: rgba(2, 229, 2, 1);
+    position: relative;
+    top: 20px;
+    left: 30px;
+
+
+}
+
+.catalog__icon {
+    width: 50px;
+    height: 80px;
+    position: relative;
+    left: 300px;
+    top: -50px;
+
+
+}
+
+.trash {
+    width: 18px;
+    height: 23px;
+    position: relative;
+    top: 20px;
+    left: 270px;
+
+}
+
+.catalog__img {
+    padding-top: 30px;
+}
+
+.catalog__name {
+    width: 250px;
+    height: 34px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+.catalog__brand {
+    width: 180px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    position: relative;
+    left: 30px;
+    top: -40px;
+
+}
+
+.catalog__model {
+    width: 150px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    position: relative;
+    left: 30px;
+    top: -30px;
+}
+
+.catalog__price {
+    width: 71px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    position: relative;
+    left: 25px;
+    top: -10px;
+}
+
+.buttonss {
+    display: flex;
+    flex-direction: column;
+}
+
+.side {
+    position: relative;
+    left: 1480px;
+    top: -330px;
+}
+
+.price {
+    color: white;
+    position: relative;
+    top: -50px;
+    font-size: 48px;
+    font-weight: 400;
+
+}
+
+.cart {
+    font-family: "Roboto Condensed", sans-serif;
+    background: rgba(2, 229, 2, 1);
+    color: black;
+    font-size: 28px;
+    font-weight: 350;
+
+}
+
+.choise {
+    position: relative;
+    top: 20px;
+    background: local;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+/* catalog 2 end  */
+
+.desc {
+    position: relative;
+    top: -100px;
+    left: 350px;
+    width: 1304px;
+    height: 1500px;
+
+}
+
+.desc__title {
+    width: 1000px;
+    height: 38px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    position: relative;
+    left: 230px;
+    color: #fff;
+}
+
+.desc__txt {
+    width: 963px;
+    height: 84px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 31px;
+    position: relative;
+    top: 50px;
+    left: -110px;
+    color: #fff;
+
+}
+
+.desc__img {
+    position: relative;
+    top: 100px;
+}
+
+.desc2 {
+    position: relative;
+    top: 180px;
+}
+
+/* description end  */
+
+/* card start  */
+
+.card {
+    width: 1920px;
+    height: 1300px;
+}
+
+.comp {
+    position: relative;
+    left: 1700px;
+    top: -1700px;
+
+    width: 94px;
+    height: 450px;
+
+}
+
+.icon-line {
+    width: 1127px;
+    height: 925px;
+    position: relative;
+    left: 500px;
+    top: -1000px;
+
+}
+
+.card__info {
+    width: 573px;
+    height: 594px;
+    /* background-color: #fff; */
+    position: relative;
+    left: 400px;
+    top: 70px;
+
+
+}
+
+.card__line,
+.card__line2 {
+    width: 134px;
+    height: 134px;
+
+}
+
+.card__line {
+    position: relative;
+    left: 460px;
+    top: -15px;
+}
+
+.card__line2 {
+    position: relative;
+    top: 190px;
+    left: -20px;
+}
+
+.card__img {
+    position: relative;
+    top: -265px;
+
+}
+
+
+
+.card__info {
+    width: 573px;
+    height: 594px;
+
+}
+
+.card__text {
+    position: relative;
+    top: -230px;
+}
+
+.card__title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+
+}
+
+.card__txt {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 31px;
+    padding-top: 20px;
+    color: #fff;
+
+
+}
+
+.fff {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+
+}
+
+/* dron start  */
+
+.dron-itself {
+    width: 1404px;
+    height: 795px;
+    position: relative;
+    top: 50px;
+    left: 300px;
+
+}
+
+.itself__title {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #fff;
+    position: relative;
+    left: 300px;
+
+}
+
+.itself__txt {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 31px;
+    color: #fff;
+    position: relative;
+    left: 50px;
+    top: 50px;
+
+}
+
+.itself__img {
+    width: 1404px;
+    height: 520px;
+    position: relative;
+    top: 100px;
+
+}
+
+/* options start  */
+
+.options {
+    width: 1296px;
+    height: 628px;
+    position: relative;
+    top: 170px;
+    left: 200px;
+
+}
+
+.options__img {
+    width: 71px;
+    height: 600px;
+    position: relative;
+    top: -580px;
+    left: 20px;
+
+}
+
+.item__plus {
+    width: 20px;
+    height: 25px;
+    position: relative;
+    top: 35px;
+    left: -35px;
+
+}
+
+.options__title {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 60px;
+    color: #fff;
+    position: relative;
+    left: 200px;
+
+}
+
+.item__name {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 34px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+
+.optons__item {
+    display: flex;
+    justify-content: space-between;
+    width: 1085px;
+    height: 84px;
+    background-color: rgba(30, 29, 29, 1);
+
+
+
+}
+
+.options__list {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    left: 200px;
+}
+
+.curcle {
+    width: 939px;
+    height: 718px;
+
+    position: relative;
+    top: -1200px;
+    left: 300px;
+}
+
+/* option end  */
+
+/* the last one GOOOD  */
+
+.samething {
+    width: 1305px;
+    height: 737px;
+    position: relative;
+    top: 300px;
+    left: 300px;
+
+}
+
+.same__txt{
+font-size: 48px;
+font-weight: 300;
+line-height: 48px;
+color: #fff;
+
+
+}
+
+.catalog-list {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.list-item {
+    padding-left: 30px;
+    display: block;
+    width: 422px;
+    height: 629px;
+    background-color: rgba(30, 29, 29, 1);
+
+
+
+
+}
+
+
+
+.item-img {
+    width: 373px;
+    height: 229px;
+    position: relative;
+    top: 40px;
+
+}
+
+.item-info {
+    position: relative;
+    left: 40px;
+}
+
+.item-name {
+    width: 187px;
+    height: 31px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    padding-top: 60px;
+
+}
+
+.item-brand {
+    width: 70px;
+    height: 18px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #fff;
+    padding-top: 60px;
+}
+
+.item-model {
+    width: 103px;
+    height: 18px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #fff;
+    padding-top: 30px;
+
+
+}
+
+.item-price {
+    width: 92px;
+    height: 30px;
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 30px;
+    color: #fff;
+    padding-top: 60px;
+
+}
+
+.item-cart {
+    width: 234px;
+    height: 62px;
+    border: 1px;
+    border: 1px solid rgba(2, 229, 2, 1);
+    color: rgba(2, 229, 2, 1);
+    background: local;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 23px;
+    position: relative;
+    top: 70px;
+    left: 45px;
+}
