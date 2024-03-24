@@ -45,7 +45,7 @@ textarea {
 
 .container {
     width: 1920px;
-    height: 7300px;
+    height: auto;
     background-color: rgb(20, 20, 20);
     display: flex;
     flex-direction: column;
@@ -129,7 +129,7 @@ textarea {
     font-size: 36px;
     font-weight: 350;
     line-height: 34px;
-    width: 331px;
+    width: 500px;
     height: 38px;
     color: #fff;
 
@@ -140,10 +140,11 @@ textarea {
     font-size: 18px;
     font-weight: 350;
     line-height: 18px;
-    width: 89px;
+    width: 150px;
     height: 18px;
     color: #fff;
-    padding-top: 30px;
+    position: relative;
+    top: 30px;
 
 }
 
@@ -156,9 +157,17 @@ textarea {
     margin-left: 80px;
 }
 
-.list {
-    columns: 2;
-    padding-top: 50px;
+.listss{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:50px;
+}
+
+.two{
+    position: relative;
+    left: 80px;
 }
 
 .list__item {
@@ -174,6 +183,7 @@ textarea {
 }
 
 .list__txt {
+    width: 300px;
     font-size: 18px;
     font-weight: 300;
     line-height: 18px;
@@ -186,7 +196,7 @@ textarea {
 }
 
 .character {
-    padding-top: 50px;
+    padding-top: 110px;
     font-size: 20px;
     font-weight: 350;
     line-height: 18px;
@@ -201,6 +211,7 @@ textarea {
 }
 
 .price-txt {
+    width: 150px;
     color: #fff;
     font-size: 30px;
     font-weight: 300;
@@ -280,9 +291,9 @@ textarea {
 }
 
 .info__title {
-    width: 157px;
+    width: 200px;
     height: 24px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 350;
     line-height: 24px;
     color: #fff;
@@ -296,7 +307,7 @@ textarea {
 .info__txt {
     width: 192px;
     height: 59px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     line-height: 31px;
     color: #fff;
@@ -310,7 +321,7 @@ textarea {
 /* start catalog 2  */
 
 .recomm {
-    width: 471px;
+    width: 700px;
     height: 48px;
     font-size: 48px;
     font-weight: 200;
@@ -331,10 +342,12 @@ textarea {
 }
 
 .catalog__list {
+    width: 1000px;
     display: flex;
     flex-direction: row;
-    padding-top: 200px;
-    padding-left: 400px;
+    position: relative;
+    top: 200px;
+    left: 400px;
     gap: 30px;
 }
 
@@ -346,7 +359,7 @@ textarea {
 }
 
 .your {
-    width: 58px;
+    width: 100px;
     height: 18px;
     font-size: 18px;
     font-weight: 100;
@@ -433,6 +446,7 @@ textarea {
 }
 
 .side {
+    width: 300px;
     position: relative;
     left: 1480px;
     top: -330px;
@@ -469,12 +483,15 @@ textarea {
 
 .desc {
     position: relative;
-    top: -100px;
+    top: 100px;
     left: 350px;
     width: 1304px;
     height: 1500px;
+    
 
 }
+
+
 
 .desc__title {
     width: 1000px;
@@ -483,19 +500,30 @@ textarea {
     font-weight: 400;
     line-height: 48px;
     position: relative;
-    left: 230px;
+    left: 400px;
+    color: #fff;
+}
+
+.desc__title2{
+    width: 1000px;
+    height: 38px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    position: relative;
+    left: 200px;
     color: #fff;
 }
 
 .desc__txt {
-    width: 963px;
-    height: 84px;
+    width: 1400px;
+    height: 100px;
     font-size: 18px;
     font-weight: 300;
     line-height: 31px;
     position: relative;
     top: 50px;
-    left: -110px;
+    left: 50px;
     color: #fff;
 
 }
@@ -517,6 +545,8 @@ textarea {
 .card {
     width: 1920px;
     height: 1300px;
+    position: relative;
+    top: 300px;
 }
 
 .comp {
@@ -538,14 +568,15 @@ textarea {
 
 }
 
+.card__list{
+}
+
 .card__info {
     width: 573px;
     height: 594px;
-    /* background-color: #fff; */
     position: relative;
     left: 400px;
     top: 70px;
-
 
 }
 
@@ -559,7 +590,6 @@ textarea {
 .card__line {
     position: relative;
     left: 460px;
-    top: -15px;
 }
 
 .card__line2 {
@@ -568,24 +598,17 @@ textarea {
     left: -20px;
 }
 
-.card__img {
+/* .card__img {
     position: relative;
     top: -265px;
 
 }
 
 
-
-.card__info {
-    width: 573px;
-    height: 594px;
-
-}
-
 .card__text {
     position: relative;
     top: -230px;
-}
+} */
 
 .card__title {
     font-size: 24px;
@@ -606,9 +629,13 @@ textarea {
 }
 
 .fff {
+    width: 1500px;
+    height: auto;
     display: flex;
     flex-direction: row;
     gap: 100px;
+    position: relative;
+    /* left: 500px; */
 
 }
 
@@ -624,6 +651,7 @@ textarea {
 }
 
 .itself__title {
+    width: 1000px;
     font-size: 48px;
     font-weight: 400;
     line-height: 60px;
@@ -737,7 +765,7 @@ textarea {
 
 .samething {
     width: 1305px;
-    height: 737px;
+    height: 1200px;
     position: relative;
     top: 300px;
     left: 300px;
